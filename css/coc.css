@@ -1,0 +1,128 @@
+/* Code of Conduct Page Styles */
+
+.coc-main {
+  margin-top: 70px;
+  padding: 60px 0;
+  min-height: calc(100vh - 300px);
+}
+
+.coc-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.coc-subtitle {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.coc-section {
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.coc-section h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.coc-section h3 {
+  color: var(--accent-color);
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.coc-section p {
+  line-height: 1.8;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.coc-section ul {
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.coc-section li {
+  line-height: 1.8;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.coc-section a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.coc-section a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.contact-box {
+  background: var(--bg-light);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--primary-color);
+}
+
+.contact-box p {
+  margin: 0.5rem 0;
+}
+
+.last-updated {
+  text-align: center;
+  color: var(--text-light);
+  font-style: italic;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Enforcement Guidelines Styling */
+.coc-section h3 + p {
+  margin-top: 0.5rem;
+}
+
+.coc-section h3 + p + p {
+  background: var(--bg-light);
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  border-left: 3px solid var(--accent-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .coc-title {
+    font-size: 2rem;
+  }
+
+  .coc-subtitle {
+    font-size: 1rem;
+  }
+
+  .coc-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .coc-section h3 {
+    font-size: 1.2rem;
+  }
+
+  .coc-section ul {
+    margin-left: 1rem;
+  }
+}
