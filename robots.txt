@@ -1,0 +1,51 @@
+# PyIndore Robots.txt
+# Welcome search engines! We want to be found by Python developers in Indore
+
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Priority pages for indexing
+Allow: /index.html
+Allow: /pages/code-of-conduct.html
+Allow: /#about
+Allow: /#join
+Allow: /#jobs
+Allow: /#resume
+Allow: /#companies
+
+# Sitemap location
+Sitemap: https://pyindore.org/sitemap.xml
+
+# Special directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Host directive (for Yandex)
+Host: https://pyindore.org
